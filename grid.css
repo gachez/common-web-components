@@ -1,0 +1,92 @@
+
+.grid-cover{
+    margin-top: 70px;
+    width: 100vw;
+    display: flex;
+
+}
+.grid-container{
+    margin: auto;
+    width: 70%;
+    display: grid;
+    grid-template-areas: 'c1 c1 c1'
+                          'c2 c2 c2'
+                          'c3 c3 c3';
+    grid-template-rows: auto;
+    grid-template-columns: auto;
+    grid-row-gap: 70px;
+    grid-column-gap: 10px;
+}
+
+.grid-items{
+    height: 160px;
+    width: 210px;
+
+
+    background-size: 100% 100%;
+  
+}
+.grid-items:nth-child(1){
+    background-image: url(images/client2.jpg)
+}
+
+.grid-items:nth-child(2){
+    background-image: url(images/client10.png)
+}
+
+.grid-items:nth-child(3){
+    background-image: url(images/client5.png)
+}
+.grid-items:nth-child(4){
+    background-image: url(images/client6.jpg)
+}
+.grid-items:nth-child(5){
+    background-image: url(images/client.png)
+}
+.grid-items:nth-child(6){
+    background-image: url(images/client7.png)
+}
+.grid-items:nth-child(7){
+    background-image: url(images/client9.png)
+}
+.grid-items:nth-child(8){
+    background-image: url(images/client4.png)
+}
+.grid-items:nth-child(9){
+    background-image: url(images/client3.jpg)
+}
+.grid-items:nth-child(10){
+    background-image: url(images/ncba.jpg)
+}
+.grid-items:nth-child(11){
+    background-image: url(images/kephis.png)
+}
+.grid-items:nth-child(12){
+    background-image: url(images/iandm.jpg)
+}
+.grid-items:nth-child(13){
+    background-image: url(images/equity.jpg)
+}
+.grid-items:nth-child(14){
+    background-image: url(images/MTN-Logo.jpg)
+}
+.grid-items:nth-child(15){
+    background-image: url(images/britam.jpg)
+}
+.grid-items:nth-child(16){
+    background-image: url(images/gulf.jpeg)
+}
+
+
+
+@media only screen and (max-width: 992px){
+    .grid-container{
+        
+    grid-template-areas: 'c1 c1'
+                          'c2 c2'
+                          'c3 c3';
+    grid-template-rows: auto;
+    }
+}
+
+
