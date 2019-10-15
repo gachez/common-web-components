@@ -11,7 +11,11 @@
 .menu-button{
     display: flex;
     cursor: pointer;
+ 
+ 
 }
+
+
 
 .menu-text{
     margin-top: 12px;
@@ -19,6 +23,11 @@
     font-weight: bold;
 }
 
+@media only screen and (max-width: 992px){
+    .menu-text{
+        margin-top: 15px;
+    }
+}
 .menu-icon{
     margin-left: 5px;
     margin-top: 15px;
@@ -39,6 +48,12 @@
     border: solid 1px green;
     text-align: right;
 
+}
+
+@media only screen and (max-width: 992px){
+    .slide-menu{
+        width: 70vw;
+    }
 }
 
 .item{
