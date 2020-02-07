@@ -1,0 +1,30 @@
+.gallery-section{
+    width: 100%;
+    display: grid;
+    margin: 0;
+    padding: 0;
+}
+
+.gallery-title{
+    font-size: 32px;
+    font-weight: 700;
+    width: 100%;
+    text-align: center;
+}
+
+.gallery-slider{
+    width: 100%;
+    height: 40rem;
+}
+
+.gallery-navigation{
+    margin: auto;
+    position: relative;
+    top: 3rem;
+}
+
+.slide{
+    display: none;
+}
+
+
